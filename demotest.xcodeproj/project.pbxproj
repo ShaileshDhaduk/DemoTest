@@ -21,9 +21,7 @@
 		E33D77FA26907D5900E7B9DD /* PoolTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33D77F826907D5900E7B9DD /* PoolTableViewCell.xib */; };
 		E33D780026908CC200E7B9DD /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33D77FE26908CC200E7B9DD /* TeamTableViewCell.swift */; };
 		E33D780126908CC200E7B9DD /* TeamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33D77FF26908CC200E7B9DD /* TeamTableViewCell.xib */; };
-		E3CA14EB2690422100928E0F /* Dictionary_Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA14EA2690422100928E0F /* Dictionary_Extention.swift */; };
 		E3CA14F52690460F00928E0F /* UtilFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA14F42690460F00928E0F /* UtilFunction.swift */; };
-		E3CA1502269049F800928E0F /* AIProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA1501269049F800928E0F /* AIProperty.swift */; };
 		E3CA150526904A8500928E0F /* UITableView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA150426904A8500928E0F /* UITableView_Extensions.swift */; };
 		E3CA150826904AAF00928E0F /* UIViewController_Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA150726904AAF00928E0F /* UIViewController_Extention.swift */; };
 		E3CA151626905AF200928E0F /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA151526905AF200928E0F /* SignupViewController.swift */; };
@@ -51,9 +49,7 @@
 		E33D77F826907D5900E7B9DD /* PoolTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PoolTableViewCell.xib; sourceTree = "<group>"; };
 		E33D77FE26908CC200E7B9DD /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
 		E33D77FF26908CC200E7B9DD /* TeamTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamTableViewCell.xib; sourceTree = "<group>"; };
-		E3CA14EA2690422100928E0F /* Dictionary_Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary_Extention.swift; sourceTree = "<group>"; };
 		E3CA14F42690460F00928E0F /* UtilFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilFunction.swift; sourceTree = "<group>"; };
-		E3CA1501269049F800928E0F /* AIProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProperty.swift; sourceTree = "<group>"; };
 		E3CA150426904A8500928E0F /* UITableView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView_Extensions.swift; sourceTree = "<group>"; };
 		E3CA150726904AAF00928E0F /* UIViewController_Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extention.swift; sourceTree = "<group>"; };
 		E3CA151526905AF200928E0F /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
@@ -170,7 +166,6 @@
 			isa = PBXGroup;
 			children = (
 				E3CA150426904A8500928E0F /* UITableView_Extensions.swift */,
-				E3CA14EA2690422100928E0F /* Dictionary_Extention.swift */,
 				E3CA150726904AAF00928E0F /* UIViewController_Extention.swift */,
 			);
 			path = Extention;
@@ -179,7 +174,6 @@
 		E3CA14E9269041ED00928E0F /* Utilites */ = {
 			isa = PBXGroup;
 			children = (
-				E3CA14FF269049DD00928E0F /* Models */,
 				E3CA14F3269045F000928E0F /* Util function */,
 				E3CA14E8269041D800928E0F /* Extention */,
 			);
@@ -192,22 +186,6 @@
 				E3CA14F42690460F00928E0F /* UtilFunction.swift */,
 			);
 			path = "Util function";
-			sourceTree = "<group>";
-		};
-		E3CA14FF269049DD00928E0F /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				E3CA1500269049E300928E0F /* Property */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		E3CA1500269049E300928E0F /* Property */ = {
-			isa = PBXGroup;
-			children = (
-				E3CA1501269049F800928E0F /* AIProperty.swift */,
-			);
-			path = Property;
 			sourceTree = "<group>";
 		};
 		E3CA150B26905A8D00928E0F /* LoginVC */ = {
@@ -373,7 +351,6 @@
 			files = (
 				E33D77C82690657A00E7B9DD /* SignupViewModel.swift in Sources */,
 				E33D77CB26906A6600E7B9DD /* HomeViewModel.swift in Sources */,
-				E3CA14EB2690422100928E0F /* Dictionary_Extention.swift in Sources */,
 				E3CA150826904AAF00928E0F /* UIViewController_Extention.swift in Sources */,
 				E33D77C52690654400E7B9DD /* LoginViewModel.swift in Sources */,
 				E3CA152326905B3F00928E0F /* BaseViewController.swift in Sources */,
@@ -384,7 +361,6 @@
 				E3CA150526904A8500928E0F /* UITableView_Extensions.swift in Sources */,
 				E336656F268F503C0024DE37 /* SceneDelegate.swift in Sources */,
 				E3CA151626905AF200928E0F /* SignupViewController.swift in Sources */,
-				E3CA1502269049F800928E0F /* AIProperty.swift in Sources */,
 				E3CA151A26905B0300928E0F /* LoginViewController.swift in Sources */,
 				E3CA14F52690460F00928E0F /* UtilFunction.swift in Sources */,
 				E33D77F926907D5900E7B9DD /* PoolTableViewCell.swift in Sources */,
