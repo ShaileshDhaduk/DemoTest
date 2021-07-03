@@ -10,7 +10,6 @@
 		E027735ABDD6C1F4C1F32CA1 /* Pods_demotest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78B9CA424E4D0D076D5873D1 /* Pods_demotest.framework */; };
 		E336656D268F503C0024DE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E336656C268F503C0024DE37 /* AppDelegate.swift */; };
 		E336656F268F503C0024DE37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E336656E268F503C0024DE37 /* SceneDelegate.swift */; };
-		E3366571268F503C0024DE37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3366570268F503C0024DE37 /* ViewController.swift */; };
 		E3366574268F503C0024DE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3366572268F503C0024DE37 /* Main.storyboard */; };
 		E3366576268F503E0024DE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3366575268F503E0024DE37 /* Assets.xcassets */; };
 		E3366579268F503E0024DE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3366577268F503E0024DE37 /* LaunchScreen.storyboard */; };
@@ -24,7 +23,6 @@
 		E33D780126908CC200E7B9DD /* TeamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E33D77FF26908CC200E7B9DD /* TeamTableViewCell.xib */; };
 		E3CA14EB2690422100928E0F /* Dictionary_Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA14EA2690422100928E0F /* Dictionary_Extention.swift */; };
 		E3CA14F52690460F00928E0F /* UtilFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA14F42690460F00928E0F /* UtilFunction.swift */; };
-		E3CA14FC2690499400928E0F /* PropertyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA14FB2690499400928E0F /* PropertyViewModel.swift */; };
 		E3CA1502269049F800928E0F /* AIProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA1501269049F800928E0F /* AIProperty.swift */; };
 		E3CA150526904A8500928E0F /* UITableView_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA150426904A8500928E0F /* UITableView_Extensions.swift */; };
 		E3CA150826904AAF00928E0F /* UIViewController_Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3CA150726904AAF00928E0F /* UIViewController_Extention.swift */; };
@@ -41,7 +39,6 @@
 		E3366569268F503C0024DE37 /* demotest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demotest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E336656C268F503C0024DE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E336656E268F503C0024DE37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3366570268F503C0024DE37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E3366573268F503C0024DE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3366575268F503E0024DE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3366578268F503E0024DE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +53,6 @@
 		E33D77FF26908CC200E7B9DD /* TeamTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamTableViewCell.xib; sourceTree = "<group>"; };
 		E3CA14EA2690422100928E0F /* Dictionary_Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dictionary_Extention.swift; sourceTree = "<group>"; };
 		E3CA14F42690460F00928E0F /* UtilFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilFunction.swift; sourceTree = "<group>"; };
-		E3CA14FB2690499400928E0F /* PropertyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyViewModel.swift; sourceTree = "<group>"; };
 		E3CA1501269049F800928E0F /* AIProperty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIProperty.swift; sourceTree = "<group>"; };
 		E3CA150426904A8500928E0F /* UITableView_Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableView_Extensions.swift; sourceTree = "<group>"; };
 		E3CA150726904AAF00928E0F /* UIViewController_Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewController_Extention.swift; sourceTree = "<group>"; };
@@ -131,8 +127,6 @@
 				E3CA150C26905A9900928E0F /* SignupVC */,
 				E3CA150B26905A8D00928E0F /* LoginVC */,
 				E3CA152126905B2A00928E0F /* BaseViewController */,
-				E3366570268F503C0024DE37 /* ViewController.swift */,
-				E3CA14FB2690499400928E0F /* PropertyViewModel.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -380,10 +374,8 @@
 				E33D77C82690657A00E7B9DD /* SignupViewModel.swift in Sources */,
 				E33D77CB26906A6600E7B9DD /* HomeViewModel.swift in Sources */,
 				E3CA14EB2690422100928E0F /* Dictionary_Extention.swift in Sources */,
-				E3366571268F503C0024DE37 /* ViewController.swift in Sources */,
 				E3CA150826904AAF00928E0F /* UIViewController_Extention.swift in Sources */,
 				E33D77C52690654400E7B9DD /* LoginViewModel.swift in Sources */,
-				E3CA14FC2690499400928E0F /* PropertyViewModel.swift in Sources */,
 				E3CA152326905B3F00928E0F /* BaseViewController.swift in Sources */,
 				E33D780026908CC200E7B9DD /* TeamTableViewCell.swift in Sources */,
 				E33D77CF26906B2100E7B9DD /* AIFirebaseManager.swift in Sources */,
